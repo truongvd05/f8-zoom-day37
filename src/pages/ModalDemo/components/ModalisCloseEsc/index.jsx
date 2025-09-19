@@ -11,7 +11,7 @@ function ModalisCloseEsc() {
     }
     return (
         <>
-            <button onClick={() => setisOpen(true)}>ModalisCloseEsc</button>
+            <button onClick={() => setisOpen(true)}>NoEscCloseModal</button>
             <Modal
             isOpen={isOpen}
             onRequestClose ={() => onRequestClose()}

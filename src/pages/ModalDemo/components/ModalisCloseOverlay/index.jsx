@@ -10,7 +10,7 @@ function ModalisCloseOverlay() {
     }
     return (
         <>
-            <button onClick={() => setisOpen(true)}>ModalisCloseOverlay</button>
+            <button onClick={() => setisOpen(true)}>NoOverlayCloseModal</button>
             <Modal
             isOpen={isOpen}
             onRequestClose ={() => onRequestClose()}

@@ -12,7 +12,7 @@ function ModalAndAnimation() {
             <button onClick={() => setisOpen(true)}>ModalAndAnimation</button>
             <Modal
             isOpen={isOpen}
-            closeTimeoutMS={300}
+            closeTimeoutMS={200}
             onRequestClose ={() => onRequestClose()}
             shouldCloseOnOverlayClick={true}
             shouldCloseOnEsc={true}
